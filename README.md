@@ -58,7 +58,7 @@ On the [Koyeb Control Panel](//app.koyeb.com/apps), click the **Create App** but
 3. Specify the branch to deploy, in this case `main`
 4. To let Koyeb know how to launch the application, add `_FIXME_RUN_COMMAND_` as the run command
 5. Update the build command field with `_FIXME_BUILD_COMMAND_`
-6. Then, give your App a name, i.e `_FIXME_APP_TYPE_-on-koyeb`, and click **Create App.**
+6. Then, give your App a name, i.e `_FIXME_APP_TYPE_-on-koyeb`, and click **Deploy**
 
 You land on the deployment page where you can follow the build of your _FIXME_APP_TYPE_ application. Once the build is completed, your application is being deployed and you will be able to access it via `<YOUR_APP_NAME>-<YOUR_ORG_NAME>.koyeb.app`.
 
