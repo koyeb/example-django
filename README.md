@@ -34,7 +34,7 @@ You need a Koyeb account to successfully deploy and run this application. If you
 
 The fastest way to deploy the Django application is to click the **Deploy to Koyeb** button below.
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/apps/deploy?type=git&repository=github.com/koyeb/example-django&branch=main&name=django-on-koyeb&env[PORT]=8000&env[DJANGO_ALLOWED_HOSTS]=.koyeb.app&ports=8000;http;/)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/koyeb/example-django&branch=main&name=django-on-koyeb&env[PORT]=8000&env[DJANGO_ALLOWED_HOSTS]=.koyeb.app&ports=8000;http;/)
 
 Clicking on this button brings you to the Koyeb App creation page with everything pre-set to launch this application.
 
