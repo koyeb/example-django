@@ -47,13 +47,13 @@ If you want to customize and enhance this application, you need to fork this rep
 If you used the **Deploy to Koyeb** button, you can simply link your service to your forked repository to be able to push changes.
 Alternatively, you can manually create the application as described below.
 
-On the [Koyeb Control Panel](//app.koyeb.com/apps), click the **Create App** button to go to the App creation page.
+On the [Koyeb Control Panel](https://app.koyeb.com/), click the **Create App** button to go to the App creation page.
 
 1. Select `GitHub` as the deployment method to use
 2. In the repositories list, select the repository you just forked
 3. Specify the branch to deploy, in this case `main`
 4. Give both your App and service a name, i.e. `django-on-koyeb`
-4. Set the `DJANGO_ALLOWED_HOSTS` environment variable to `<YOUR_APP_NAME>-<YOUR_ORG_NAME>.koyeb.app`
+4. Set the `DJANGO_ALLOWED_HOSTS` environment variable to `<YOUR_APP_NAME>-<YOUR_ORG_NAME>.koyeb.app`, changing `<YOUR_APP_NAME>` and `<YOUR_ORG_NAME>` to match your information
 6. Click **Deploy**
 
 You land on the deployment page where you can follow the build of your Django application. Once the build is completed, your application is being deployed and you will be able to access it via `<YOUR_APP_NAME>-<YOUR_ORG_NAME>.koyeb.app`.
